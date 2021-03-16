@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArcDemo.Application", "CleanArcDemo.Application", "{F0046E56-E9B7-437A-8EFC-47AF7B6151F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArcDemo.Domain", "CleanArcDemo.Domain", "{9ABED665-9654-44E3-BADC-E3C4322F7087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArcDemo.Infra.Data", "CleanArcDemo.Infra.Data", "{3700D70B-D1AC-4B05-922B-4026AE13175E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArcDemo.Infra.Ioc", "CleanArcDemo.Infra.Ioc", "{133E86E0-9B2E-41C4-BCFE-C9AFDB5CED20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArcDemo.UI.Mvc", "CleanArcDemo.UI.Mvc", "{CA7C7968-87B3-4B3D-9897-B03C3D38FC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArcDemo.Mvc", "CleanArcDemo.Mvc\CleanArcDemo.Mvc.csproj", "{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9541B24-BE9D-4B1B-ABE2-CD14B22D1329} = {CA7C7968-87B3-4B3D-9897-B03C3D38FC80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E3809BD-2962-44AE-88CC-2BD9C285AD69}
